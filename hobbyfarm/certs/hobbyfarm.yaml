@@ -1,0 +1,115 @@
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: api-hobbyfarm-ingress
+  namespace: hobbyfarm-system
+spec:
+  secretName: api-hobbyfarm-ingress
+  # duration: 2160h
+  # renewBefore: 360h
+  subject:
+    organizations:
+    - brooksphilip
+  commonName: "hobbyfarm-api.aws.rancher.lol"
+  # isCA: false
+  privateKey:
+    algorithm: RSA
+    encoding: PKCS1
+    size: 2048
+  usages:
+    - server auth
+    - client auth
+  dnsNames:
+  - "hobbyfarm-api.aws.rancher.lol"
+  issuerRef:
+    name: letsencrypt
+    kind: ClusterIssuer
+    group: cert-manager.io
+
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: admin-hobbyfarm-ingress
+  namespace: hobbyfarm-system
+spec:
+  secretName: admin-hobbyfarm-ingress
+  # duration: 2160h
+  # renewBefore: 360h
+  subject:
+    organizations:
+    - brooksphilip
+  commonName: "hobbyfarm-admin.aws.rancher.lol"
+  # isCA: false
+  privateKey:
+    algorithm: RSA
+    encoding: PKCS1
+    size: 2048
+  usages:
+    - server auth
+    - client auth
+  dnsNames:
+  - "hobbyfarm-admin.aws.rancher.lol"
+  issuerRef:
+    name: letsencrypt
+    kind: ClusterIssuer
+    group: cert-manager.io
+
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: learn-hobbyfarm-ingress
+  namespace: hobbyfarm-system
+spec:
+  secretName: learn-hobbyfarm-ingress
+  # duration: 2160h
+  # renewBefore: 360h
+  subject:
+    organizations:
+    - brooksphilip
+  commonName: "hobbyfarm.aws.rancher.lol"
+  # isCA: false
+  privateKey:
+    algorithm: RSA
+    encoding: PKCS1
+    size: 2048
+  usages:
+    - server auth
+    - client auth
+  dnsNames:
+  - "hobbyfarm.aws.rancher.lol"
+  issuerRef:
+    name: letsencrypt
+    kind: ClusterIssuer
+    group: cert-manager.io
+
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: shell-hobbyfarm-ingress
+  namespace: hobbyfarm-system
+spec:
+  secretName: shell-hobbyfarm-ingress
+  # duration: 2160h
+  # renewBefore: 360h
+  subject:
+    organizations:
+    - brooksphilip
+  commonName: "hobbyfarm-shell.aws.rancher.lol"
+  # isCA: false
+  privateKey:
+    algorithm: RSA
+    encoding: PKCS1
+    size: 2048
+  usages:
+    - server auth
+    - client auth
+  dnsNames:
+  - "hobbyfarm-shell.aws.rancher.lol"
+  issuerRef:
+    name: letsencrypt
+    kind: ClusterIssuer
+    group: cert-manager.io

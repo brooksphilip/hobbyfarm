@@ -1,0 +1,9 @@
+defaultNamespace: hobbyfarm-system
+
+helm:
+  releaseName: hobbyfarm
+  repo: https://hobbyfarm.github.io/hobbyfarm
+  chart: hobbyfarm
+  version: 3.0.1
+  valuesFiles:
+    - hobbyfarm-values.yaml

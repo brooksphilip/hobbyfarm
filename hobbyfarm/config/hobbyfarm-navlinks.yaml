@@ -1,0 +1,26 @@
+### HobbyFarm NavLinks
+apiVersion: ui.cattle.io/v1
+kind: NavLink
+metadata:
+  name: hobbyfarm
+spec:
+  label: HobbyFarm
+  target: _blank
+  description: Student UI for HobbyFarm
+  group: HobbyFarm Resources
+  label: HobbyFarm
+  sideLabel: HOBBYFARM
+  toURL: https://hobbyfarm.aws.rancher.lol
+---
+apiVersion: ui.cattle.io/v1
+kind: NavLink
+metadata:
+  name: hobbyfarm-admin
+spec:
+  label: HobbyFarm Admin
+  target: _blank
+  description: Admin UI for HobbyFarm
+  group: HobbyFarm Resources
+  label: HobbyFarm Admin
+  sideLabel: HOBBYFARM
+  toURL: https://hobbyfarm-admin.aws.rancher.lol

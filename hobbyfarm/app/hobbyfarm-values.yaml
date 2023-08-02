@@ -1,0 +1,49 @@
+ingress:
+  enabled: true
+  hostnames:
+    admin: hobbyfarm-admin.aws.rancher.lol
+    backend: hobbyfarm-api.aws.rancher.lol
+    shell: hobbyfarm-shell.aws.rancher.lol
+    ui: hobbyfarm.aws.rancher.lol
+  tls:
+    enabled: true
+    secrets:
+      admin: admin-hobbyfarm-ingress
+      backend: api-hobbyfarm-ingress
+      shell: shell-hobbyfarm-ingress
+      ui: learn-hobbyfarm-ingress
+
+shell:
+  replicas: 3
+
+terraform:
+  enabled: true
+
+admin:
+  configMapName: admin-config
+  config:
+    title: RGS Learn Administration
+    favicon: /assets/default/favicon.png
+    login:
+      logo: https://raw.githubusercontent.com/zackbradys/rgs-hobbyfarm/main/fleet/rgs-logo-stacked.svg
+      background: assets/default/vault.jpg
+    logo: /assets/default/logo.svg
+ui:
+  configMapName: ui-config
+  config:
+    title: RGS Learn
+    favicon: /assets/default/favicon.png
+    login:
+      logo: https://raw.githubusercontent.com/zackbradys/rgs-hobbyfarm/main/fleet/rgs-logo-stacked.svg
+      background: /assets/default/login_container_farm.svg
+    logo: /assets/default/logo.svg
+    about:
+      title: About RGS Learn
+      body: RGS Learn is a learning management platform for the Rancher Ecosystem! It is a place to learn about cloud native technologies like Kubernetes and Rancher!
+      buttons:
+        - title: RGS GitHub
+          url: https://github.com/rancherfederal
+        - title: RGS Website
+          url: https://ranchergovernment.com
+        - title: Contact RGS
+          url: mailto:fieldeng@ranchergovernment.com
