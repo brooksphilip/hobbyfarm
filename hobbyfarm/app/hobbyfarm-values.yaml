@@ -25,7 +25,7 @@ admin:
     title: RGS Learn Administration
     favicon: /assets/default/favicon.png
     login:
-      logo: https://raw.githubusercontent.com/zackbradys/rgs-hobbyfarm/main/fleet/rgs-logo-stacked.svg
+      logo: https://raw.githubusercontent.com/brooksphilip/hobbyfarm/main/hobbyfarm/rgs-logo-stacked.svg
       background: assets/default/vault.jpg
     logo: /assets/default/logo.svg
 ui:
@@ -34,7 +34,7 @@ ui:
     title: RGS Learn
     favicon: /assets/default/favicon.png
     login:
-      logo: https://raw.githubusercontent.com/zackbradys/rgs-hobbyfarm/main/fleet/rgs-logo-stacked.svg
+      logo: https://raw.githubusercontent.com/brooksphilip/hobbyfarm/main/hobbyfarm/rgs-logo-stacked.svg
       background: /assets/default/login_container_farm.svg
     logo: /assets/default/logo.svg
     about:

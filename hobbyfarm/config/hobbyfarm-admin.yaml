@@ -1,3 +1,4 @@
+---
 ### HobbyFarm Users, Role and RoleBinding
 apiVersion: hobbyfarm.io/v2
 kind: User
@@ -6,7 +7,7 @@ metadata:
     namespace: hobbyfarm-system
 spec:
     email: admin
-    password: '$2a$10$QkpisIWlrq/uA/BWcOX0/uYWinHcbbtbPMomY6tp3Gals0LbuFEDO'
+    password: '$2y$10$FvsQ6UCzENB1Ljx1ZmpSeelYp347gUyDULtYWo0I0p2Nspmf5pcIa'
     access_codes:
     - workshop
     settings:
@@ -14,6 +15,7 @@ spec:
       ctxAccessCode: workshop
       terminal_fontSize: "16"
       terminal_theme: GitHub
+
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
@@ -52,7 +54,7 @@ metadata:
     namespace: hobbyfarm-system
 spec:
     email: troubleshoot
-    password: '$2a$10$QkpisIWlrq/uA/BWcOX0/uYWinHcbbtbPMomY6tp3Gals0LbuFEDO'
+    password: '$2y$10$FvsQ6UCzENB1Ljx1ZmpSeelYp347gUyDULtYWo0I0p2Nspmf5pcIa'
     access_codes:
     - workshop
     settings:
