@@ -7,7 +7,7 @@ metadata:
     namespace: hobbyfarm-system
 spec:
     email: admin
-    password: '$2y$10$pQMA/Cxnh1eDupEDBgUpB.IU28.cWmjb1SH52e9jrhXjI7VxV8aqC'
+    password: '$2y$10$skIDdfQvBBjCT6.bSpxbQudp7F49KMwmF9pY.JtyWNtIzZzkrzV3K'
     access_codes:
     - workshop
     settings:
@@ -54,7 +54,7 @@ metadata:
     namespace: hobbyfarm-system
 spec:
     email: troubleshoot
-    password: '$2y$10$pQMA/Cxnh1eDupEDBgUpB.IU28.cWmjb1SH52e9jrhXjI7VxV8aqC'
+    password: '$2y$10$skIDdfQvBBjCT6.bSpxbQudp7F49KMwmF9pY.JtyWNtIzZzkrzV3K'
     access_codes:
     - workshop
     settings:
