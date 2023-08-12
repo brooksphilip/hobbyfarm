@@ -1,0 +1,4 @@
+defaultNamespace: hobbyfarm-system
+
+dependsOn:
+  - name: hobbyfarm-hobbyfarm-app
