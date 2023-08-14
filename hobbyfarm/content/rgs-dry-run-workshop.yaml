@@ -14,8 +14,8 @@ spec:
     - rgs-testrun-workshop
     - pbrooks
   virtualmachines:
-  - cluster01: sles-15-sp2
-    rancher01: sles-15-sp2
+  - cluster01: sles-15-sp4
+    rancher01: sles-15-sp4
   keepalive_duration: 2h
   pause_duration: 6h
   pauseable: true
