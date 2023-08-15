@@ -6,7 +6,7 @@ For this Rodeo, Rancher is installed with a self-signed certificate from a CA th
 
 In order to retrieve the bootstrap password run the supplied command on the initial Rancher UI scree. Then Please follow instructions on the UI to generate password for default `admin` user when prompted.
 
-Make sure to agree to the Terms & Conditions
+Make sure to agree to the Terms & Conditions.
 
 When prompted, the **Rancher Server URL** should be `rancher.${vminfo:Rancher01:public_ip}.sslip.io`, which is the hostname you used to access the server.
 

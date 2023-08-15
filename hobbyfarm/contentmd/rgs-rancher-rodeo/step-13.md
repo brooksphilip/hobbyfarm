@@ -24,6 +24,6 @@ You should now see a new option on the left menu pane. Select **NeuVector** and 
 
 Accept the EULA and continue to the NeuVector Dashboard. 
 
-**NeuVector is now installed**
+**NeuVector is now installed**.
 
 ### On to GitOPs
