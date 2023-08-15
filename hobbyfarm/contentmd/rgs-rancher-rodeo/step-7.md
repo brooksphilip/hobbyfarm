@@ -1,5 +1,3 @@
-## Verify Rancher is Ready to Access
-
 #### Before we access Rancher, we need to make sure that `cert-manager` has signed a certificate using the `dynamiclistener-ca` in order to make sure our connection to Rancher does not get interrupted. The following bash script will check for the certificate we are looking for.
 
 ```ctr:Rancher01

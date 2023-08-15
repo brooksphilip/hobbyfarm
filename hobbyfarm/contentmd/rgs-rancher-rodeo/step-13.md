@@ -1,5 +1,3 @@
-## Install NeuVector
-
 Lets use helm, but inside the Rancher UI. Do you remember step 11 `Interacting with the Kubernetes Cluster`. 
 
 

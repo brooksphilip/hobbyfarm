@@ -1,3 +1,2 @@
-## Conclusion
 
-Thank you for attending. 
+## Thank you for attending. 

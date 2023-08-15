@@ -1,5 +1,3 @@
-## Start the Rancher Kubernetes Cluster Bootstrapping Process
-
 **IMPORTANT NOTE:** Make sure you have selected the `Cluster01` tab in HobbyFarm in the window to the right. If you run this command on `Rancher01` you will cause problems for your scenario session.
 
 1. Take the copied command and run it on `Cluster01`

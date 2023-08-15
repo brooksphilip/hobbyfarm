@@ -1,5 +1,3 @@
-## Interacting with the Kubernetes Cluster
-
 In this step, we will be showing basic interaction with our Kubernetes cluster.
 
 1. Select the "burger menu" at the top left and Click into your newly **active** cluster.

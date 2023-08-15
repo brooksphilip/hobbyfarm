@@ -1,5 +1,3 @@
-## Create a Kubernetes cluster for Rancher
-
 ### Rancher can run on any Kubernetes cluster and distribution, that is certified to be standard compliant by the Cloud Native Computing Foundation (CNCF).
 
 #### We recommend using a [RKE2](https://rke2.io/) Kubernetes cluster. RKE2 is a CNCF certified Kubernetes distribution, which is easy and fast to install and upgrade with a focus on security. You can run it in your datacenter, in the cloud as well as on edge devices. It works great on a single-node as well in large, highly available setups.

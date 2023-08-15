@@ -1,5 +1,3 @@
-## Testing your cluster
-
 RKE2 now created a new Kubernetes cluster. In order to interact with its API, we can use the Kubernetes CLI `kubectl`.
 
 To install `kubectl` run:

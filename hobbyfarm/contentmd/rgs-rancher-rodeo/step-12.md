@@ -1,5 +1,3 @@
-## Install Longhorn
-
 Lets install longhorn for our persistent storage inside Kubernetes. This will allows applications to be able to read and write persistent data inside the cluster. 
 
 
@@ -41,7 +39,7 @@ Lets install longhorn for our persistent storage inside Kubernetes. This will al
 11. Since we will be deploying NeuVector in the next step and NewVector uses RWX (ReadWriteMany) we need to ensure our Longhorn hosts have NFS kernel modules installed. 
 
 ```ctr:Cluster01
-sudo zypper install nfs-common -y
+sudo zypper install nfs-utils -y
 ```
 
 #### Lets install NeuVector for Container Security

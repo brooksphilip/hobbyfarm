@@ -1,5 +1,3 @@
-## Accessing Rancher
-
 ***Note:*** Rancher may not immediately be available at the link below, as it may be starting up still. Please continue to refresh until Rancher is available.
 
 #### Access Rancher Server at [https://rancher.${vminfo:Rancher01:public_ip}.sslip.io](https://rancher.${vminfo:Rancher01:public_ip}.sslip.io).

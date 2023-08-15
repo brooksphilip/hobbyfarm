@@ -1,6 +1,3 @@
-
-## Introduction
-
 ### Welcome to the Rancher Government Solutions Rodeo.
 
 In this scenario, we will be walking through installing Rancher and deploying several workloads to a cluster provisioned by Rancher.
