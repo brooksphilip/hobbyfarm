@@ -1,6 +1,6 @@
 **IMPORTANT NOTE:** Make sure you have selected the `Cluster01` tab in HobbyFarm in the window to the right. If you run this command on `Rancher01` you will cause problems for your scenario session.
 
-Take the copied command and run it on `Cluster01`.
+Take the copied command and run it on `Cluster01`
 
 You can follow the provisioning process in the **Machines**, **Conditions** and **Related Resources** tabs.
 
