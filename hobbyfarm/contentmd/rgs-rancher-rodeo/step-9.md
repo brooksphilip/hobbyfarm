@@ -1,11 +1,11 @@
-# Creating a Kubernetes Lab Cluster within Rancher
+## Creating a Kubernetes Lab Cluster within Rancher
 
-#### In this step, we will be creating a Kubernetes Lab environment within Rancher. Normally, in a production case, you would create a Kubernetes Cluster with multiple nodes; however, with this lab environment, we will only be using one virtual machine for the cluster.
+In this step, we will be creating a Kubernetes Lab environment within Rancher. Normally, in a production case, you would create a Kubernetes Cluster with multiple nodes; however, with this lab environment, we will only be using one virtual machine for the cluster.
 
 1. Go back to the Rancher Home Page
 
 2. On top of the list of available clusters, click **Create**
-   - We will be using RKE2 cluster, so make sure to switch the toggle to RKE2/K3s
+   - We will be using RKE2 cluster, so make sure to switch the toggle to **RKE2/K3s**
    - Note the multiple types of Kubernetes cluster Rancher supports. We will be using **Custom cluster on existing nodes** for this lab, but there are a lot of possibilities with Rancher.
 
 3. Click on the **Custom** Cluster box in the **Use existing nodes and create a cluster using RKE2** section

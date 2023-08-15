@@ -1,4 +1,4 @@
-# Install Rancher
+## Install Rancher
 
 #### We will now install Rancher in HA mode onto our `Rancher01` Kubernetes cluster. The following command will add `rancher-latest` as a helm repository.
 
@@ -16,3 +16,5 @@ helm install rancher rancher-latest/rancher \
   --version 2.7.4 \
   --create-namespace
 ```
+
+### Its That Easy!
