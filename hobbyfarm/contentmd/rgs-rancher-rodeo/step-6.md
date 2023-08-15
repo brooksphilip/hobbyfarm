@@ -1,6 +1,6 @@
 # Install Rancher
 
-We will now install Rancher in HA mode onto our `Rancher01` Kubernetes cluster. The following command will add `rancher-latest` as a helm repository.
+#### We will now install Rancher in HA mode onto our `Rancher01` Kubernetes cluster. The following command will add `rancher-latest` as a helm repository.
 
 ```ctr:Rancher01
 helm repo add rancher-latest https://releases.rancher.com/server-charts/latest
