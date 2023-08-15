@@ -17,7 +17,7 @@ Click the Service Type drop down and select `ClusterIP`. Type `http` in the Name
 
 Click **Create**
 
-### We have now deployed a deployment and a service. Now lets create the ingress
+**We have now deployed a deployment and a service. Now lets create the ingress**
 
 On the left menu pane click **Service Discovery** then click **Ingresses**
 
