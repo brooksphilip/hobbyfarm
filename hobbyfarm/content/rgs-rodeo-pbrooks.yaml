@@ -2,16 +2,16 @@
 apiVersion: hobbyfarm.io/v1
 kind: Scenario
 metadata:
-  name: rgs-testrun-workshop
+  name: rgs-pbrooks-workshop
   namespace: hobbyfarm-system
 spec:
-  name: cmdzLXRlc3RydW4td29ya3Nob3AK
-  description: cmdzLXRlc3RydW4td29ya3Nob3AK
+  name: cmdzLXBicm9va3Mtd29ya3Nob3AK
+  description: cmdzLXBicm9va3Mtd29ya3Nob3AK
   tags:
-    - rgs-testrun-workshop
+    - rgs-pbrooks-workshop
     - pbrooks
   categories:
-    - rgs-testrun-workshop
+    - rgs-pbrooks-workshop
     - pbrooks
   virtualmachines:
   - cluster01: sles-15-sp4
