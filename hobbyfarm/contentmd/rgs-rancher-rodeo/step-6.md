@@ -15,4 +15,4 @@ helm install rancher rancher-latest/rancher \
   --create-namespace
 ```
 
-### Its That Easy!
+### It's That Easy!

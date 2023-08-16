@@ -2,7 +2,11 @@
 
 In this scenario, we will be walking through installing Rancher and deploying several workloads to a cluster provisioned by Rancher.
 
+<br>
+
 We will be using two virtual machines today, `cluster01` and `rancher01` which are located in the tabs in the panel to the right. `rancher01` will run a Kubernetes cluster and Rancher, and `cluster01` will run a Kubernetes cluster and the corresponding user workloads.
+<br>
+<br>
 
 Note that there are two separate Kubernetes clusters at play here, the Rancher Kubernetes Cluster is dedicated to running Rancher, while the Workload Cluster is managed by Rancher and runs on a separate virtual machine.
 
