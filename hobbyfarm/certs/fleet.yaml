@@ -1,5 +1,5 @@
 defaultNamespace: hobbyfarm-system
 dependsOn:
-  - name: essentials-essentials-certmanager-cert-manager
+  - name: 	essentials-gitops-essentials-certmanager-cert-manager
 # kustomize:
 #   dir: ./resources
