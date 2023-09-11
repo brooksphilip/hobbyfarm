@@ -37,4 +37,4 @@ To list all the Pods in all Namespaces of the cluster:
 kubectl get pods --all-namespaces
 ```
 
-All Pods should have the status "Running".
+All Pods should have the status "Running" OR "Completed".

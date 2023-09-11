@@ -15,8 +15,8 @@ Next we can install NeuVector using the following helm command. Copy and paste t
 
 <br>
 
-```bash
-helm upgrade -i neuvector --namespace cattle-neuvector-system neuvector/core --create-namespace --set k3s.enabled=true --set controller.pvc.enabled=true --set controller.pvc.capacity=500Mi --set controller.ranchersso.enabled=true --set global.cattle.url=https://rancher.${vminfo:Cluster1:public_ip}.sslip.io
+```bash:Rancher01
+helm upgrade -i neuvector --namespace cattle-neuvector-system neuvector/core --create-namespace --set k3s.enabled=true --set controller.pvc.enabled=true --set controller.pvc.capacity=500Mi --set controller.ranchersso.enabled=true --set global.cattle.url=https://rancher.${vminfo:Rancher01:public_ip}.sslip.io
 ```
 
 We should wait a few seconds for the pods to deploy. We can Follow along by clicking **Workloads** then at the top select the drop down and select `cattle-neuvector-system`. This will display the status neuvecotr deployments. 
