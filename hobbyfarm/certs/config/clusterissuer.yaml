@@ -1,0 +1,22 @@
+---
+apiVersion: cert-manager.io/v1
+kind: ClusterIssuer
+metadata:
+  name: letsencrypt
+spec:
+  acme:
+    email: brooksphilip@mac.com
+    server: https://acme-v02.api.letsencrypt.org/directory
+    preferredChain: “DST Root CA X3”
+    privateKeySecretRef:
+      name: letsencrypt
+    solvers:
+    - dns01:
+        route53:
+          region: us-east-1
+          accessKeyID: AKIAWXTTB53CJO667VPP
+          secretAccessKeySecretRef:
+            name: prod-route53-credentials-secret
+            key: secret-access-key
+            # you can also assume a role with these credentials
+            #role: arn:aws:iam::YYYYYYYYYYYY:role/dns-manager
