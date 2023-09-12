@@ -35,7 +35,7 @@
 11. Name the ingress `rodeo`. 
 <br>
 <br>
-12. Under Rules in the Request Host field put `rodeo.${vminfo:Rancher01:public_ip}.sslip.io`. In the Path field type `/`. Click the Target Service drop down and select `rodeo`. Click the Port drop down and select `80`.
+12. Under Rules in the Request Host field put `rodeo.${vminfo:Cluster01:public_ip}.sslip.io`. In the Path field type `/`. Click the Target Service drop down and select `rodeo`. Click the Port drop down and select `80`.
 <br>
 <br>
 13. Click **Create**.
