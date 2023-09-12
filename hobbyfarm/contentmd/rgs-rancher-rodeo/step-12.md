@@ -38,7 +38,7 @@ A terminal will appear and you will be able to watch the installation process. W
 10. Since we will be deploying NeuVector in the next step and NewVector uses RWX (ReadWriteMany) we need to ensure our Longhorn hosts have NFS kernel modules installed
 
 ```ctr:Cluster01
-sudo zypper install nfs-client -y
+sudo zypper install -y nfs-client
 ```
 <br>
 <br>
