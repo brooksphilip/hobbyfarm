@@ -28,37 +28,37 @@ spec:
     rocky-9.2:
       disk: "64"
       image: ami-09c77dc92e45bc3ea
-      instance_type: m6i.xlarge
+      instance_type: m6a.xlarge
       ssh_username: rocky
     ubuntu-22.04:
       disk: "64"
       image: ami-053b0d53c279acc90
-      instance_type: m6i.xlarge
+      instance_type: m6a.xlarge
       ssh_username: ubuntu
     sles-15-sp4:
       disk: "64"
       image: ami-021b67c90e3e68a8f
-      instance_type: m6i.xlarge
+      instance_type: m6a.xlarge
       ssh_username: ec2-user
     rhel-9.1:
       disk: "64"
       image: ami-04d2290c1e193d4c7
-      instance_type: m6i.xlarge
+      instance_type: m6a.xlarge
       ssh_username: ec2-user
     centos-7.8:
       disk: "64"
       image: ami-0aedf6b1cb669b4c7
-      instance_type: m6i.xlarge
+      instance_type: m6a.xlarge
       ssh_username: centos
     aws-al2023:
       disk: "64"
       image: ami-0f34c5ae932e6f0e4
-      instance_type: m6i.xlarge
+      instance_type: m6a.xlarge
       ssh_username: ec2-user
     aws-al2:
       disk: "64"
       image: ami-0f9ce67dcf718d332
-      instance_type: m6i.xlarge
+      instance_type: m6a.xlarge
       ssh_username: ec2-user
   ws_endpoint: hobbyfarm-shell.aws.rancher.lol
 ---
