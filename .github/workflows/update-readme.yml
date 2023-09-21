@@ -30,12 +30,14 @@ jobs:
       - name: Run a one-line script
         run: python3 readme.py
 
-      - name: Commit & Push changes
-        uses: actions/github-script@v6
-        with:
-          script: |
-            git add .
-            git commit -m "updating readme"
-            git push
+      - name: Commit Readme
+        run: |
+          cd commit
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+
+          git add README.md
+          git commit -m "Updated README.md @ $(date '+%Y-%m-%dT%T.%3N')"
+          git push 
 
         
