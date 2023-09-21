@@ -28,36 +28,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: ls -la
+        run: python3 readme.py
 
-      # Runs a set of commands using the runners shell
-      - name: Update Readme
-        run: |
-          import os
-
-          # Specify the directory you want to iterate through
-          directory_path = 'hobbyfarm/contentmdrgs-rancher-rodeo'
-
-          # Define the output file name
-          output_file = 'README.md'
-
-          # Check if the specified path is a directory
-          if os.path.isdir(directory_path):
-              # Open the output file for writing
-              with open(output_file, 'w') as readme_file:
-                  # Iterate through all files in the directory
-                  for filename in os.listdir(directory_path):
-                      file_path = os.path.join(directory_path, filename)
-                      
-                      # Check if the item in the directory is a file
-                      if os.path.isfile(file_path):
-                          readme_file.write(f"## Contents of {filename}:\n\n")
-                          
-                          # Open and read the file
-                          with open(file_path, 'r') as file:
-                              file_contents = file.read()
-                              readme_file.write(file_contents)
-                              readme_file.write('\n\n' + '-' * 40 + '\n\n')  # Separate files with a line of dashes
-          else:
-              print(f"{directory_path} is not a valid directory.")
-
+      
