@@ -8,10 +8,16 @@ output_file = 'README.md'
 
 # Check if the specified path is a directory
 if os.path.isdir(directory_path):
+    # Get a list of files in the directory and sort them alphabetically
+    file_order = sorted(os.listdir(directory_path))
+    
     # Open the output file for writing
     with open(output_file, 'w', encoding='utf-8') as readme_file:
-        # Iterate through all files in the directory
-        for filename in os.listdir(directory_path):
+        # Iterate through files in alphabetical order
+        for filename in file_order:
+            if filename == '.DS_Store':
+                continue  # Skip processing the file named "test.md"
+            
             file_path = os.path.join(directory_path, filename)
             
             # Check if the item in the directory is a file
@@ -27,6 +33,6 @@ if os.path.isdir(directory_path):
                     # Handle files that cannot be decoded as UTF-8
                     readme_file.write("Unable to decode this file as UTF-8.\n\n")
                 
-                readme_file.write('\n\n' + '-' * 40 + '\n\n')  # Separate files with a line of dashes*
+                readme_file.write('\n\n' + '-' * 40 + '\n\n')  # Separate files with a line of dashes
 else:
     print(f"{directory_path} is not a valid directory.")
