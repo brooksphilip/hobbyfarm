@@ -32,9 +32,10 @@ jobs:
 
       - name: Commit & Push changes
         uses: actions/github-script@v6
-        script: |
-          git add .
-          git commit -m "updating readme"
-          git push
+        with:
+          script: |
+            git add .
+            git commit -m "updating readme"
+            git push
 
-      
+        
