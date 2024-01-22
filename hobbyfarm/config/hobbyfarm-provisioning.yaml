@@ -6,13 +6,13 @@ metadata:
   namespace: hobbyfarm-system
 spec:
   count_capacity:
-    rocky-9.2: 100
-    ubuntu-22.04: 100
-    sles-15-sp4: 100
-    rhel-9.1: 100
-    centos-7.8: 100
-    aws-al2023: 100
-    aws-al2: 100
+    rocky-9.2: 500
+    ubuntu-22.04: 500
+    sles-15-sp4: 500
+    rhel-9.1: 500
+    centos-7.8: 500
+    aws-al2023: 500
+    aws-al2: 500
   display_name: aws-env
   dnssuffix: null
   ip_translation_map: null
