@@ -7,3 +7,5 @@ helm:
   version: 3.0.1
   valuesFiles:
     - hobbyfarm-values.yaml
+dependsOn:
+  - name: hobbyfarm-hobbyfarm-certs-certs

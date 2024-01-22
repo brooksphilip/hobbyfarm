@@ -14,7 +14,7 @@ ingress:
       ui: learn-hobbyfarm-ingress
 
 shell:
-  replicas: 3
+  replicas: 16
 
 terraform:
   enabled: true
